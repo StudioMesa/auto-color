@@ -1,6 +1,3 @@
-<!--SM AUTO-COLOR V2 Part 2| Use Site Styles color palette in CSS-->
-<!--Copyright © Studio Mesa — You may not copy, resell, reproduce, distribute, publish, modify, create derivative works, or in any way exploit this code-->
-
 <script>
 document.addEventListener('DOMContentLoaded',function(){
 var themeVariablePairs=[
@@ -31,5 +28,3 @@ document.documentElement.style.setProperty(pair.variable,`var(${pair.fallback})`
 });
 });
 </script>
-
-<!--END SM AUTO-COLOR-->
