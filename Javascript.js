@@ -1,4 +1,3 @@
-<script>
 document.addEventListener('DOMContentLoaded',function(){
 var themeVariablePairs=[
 {theme:'white',variable:'--white',fallback:'--white-hsl',class:'white'},
@@ -27,4 +26,3 @@ document.documentElement.style.setProperty(pair.variable,`var(${pair.fallback})`
 document.documentElement.style.setProperty(pair.variable,`var(${pair.fallback})`);}
 });
 });
-</script>
